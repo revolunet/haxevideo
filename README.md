@@ -1,0 +1,1 @@
+Clone from http://code.google.com/p/haxevideo thanks to Nicolas Cannasse
