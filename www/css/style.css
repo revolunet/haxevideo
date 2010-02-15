@@ -1,0 +1,56 @@
+body {
+	margin : 0 0 0 0;
+	padding : 0 0 0 0;
+	font-family : arial, verdana, sans-serif;
+	font-size : small;
+}
+
+a img {
+	border : 0px;
+}
+
+a {
+	color : #FF8400;
+}
+
+.main {
+	width : 100%;
+	border-spacing : 0px;
+	border-collapse: collapse;
+}
+
+.main tr.banner td, .main tr.line td {
+	padding : 0 0 0 0;
+}
+
+.main tr.banner {	
+	background-image : url(../img/bannerBg.png);
+	background-repeat : repeat-x;
+	height : 124px;
+}
+
+.main td.menu {
+	width : 150px;
+	vertical-align : top;
+}
+
+.main td.content {
+	width : 800px;
+	padding-bottom : 20px;
+}
+
+.main tr.line {
+	height : 1px;	
+	background-color : #DCDCDC;
+}
+
+.main tr.credits td {
+	font-size : 80%;
+	padding-top : 5px;
+}
+
+.menu h1 {
+	font-size : 18px;
+	text-align : center;	
+}
+

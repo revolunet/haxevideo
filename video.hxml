@@ -1,0 +1,11 @@
+# Client
+-swf9 video.swf
+-main samples.Main
+-debug
+
+
+--next
+# Server
+-neko server.n
+-main hxvid.Server
+-lib format

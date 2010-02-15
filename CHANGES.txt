@@ -1,0 +1,41 @@
+THINGS TO DO
+	allow to easily "produce" live streams (from playlist, etc...)
+	allow to create FLVS indexes for fast seeking
+
+KNOWN THINGS TO FIX
+	properly notice client of stream terminaison
+	fix video timing after pause/seek
+
+2008-??-??: 1.2
+	moved flv and amf support from SVN to hxformat library
+	added rtmp support for channels > 63
+
+2008-07-29: 1.1
+	fixed int32 overflow in handshake
+	fixed thread socket sleep list concurrency
+	changes for haxe 2.0
+
+2007-12-16: 1.0
+	handshake bugfix
+	added big string, date and hash support for AMF
+	realtime server with correct buffer management
+	life webcam streaming
+	metadata suport
+	NetStream.send is now correctly working
+	experimental shared object protocol
+	created opening.flv
+
+2007-05-12: Beta3
+	added website
+	added pause, seek, receiveAudio, receiveVideo
+	support for variable mic rate
+	support for video-only and sound-only FLVs
+	bugfixes
+
+2007-02-11: Beta2
+	added webcam and microphone recording
+	improved AMF+FLV support
+
+2007-02-11: Beta1
+	initial release
+	FLV streaming

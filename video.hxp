@@ -1,0 +1,30 @@
+﻿<haxe selected="0">
+  <output name="Client" mode="swf9" out="video.swf" class="samples.Main" lib="" cmd="video.html" main="True" debug="True"></output>
+  <output name="Server" mode="neko" out="server.n" class="hxvid.Server" lib="" cmd="server.bat" main="True" debug="False">-lib format</output>
+  <files path="">
+    <dir path="amf">
+      <file path="..\hxformat\format\amf\Reader.hx" />
+      <file path="..\hxformat\format\amf\Tools.hx" />
+      <file path="..\hxformat\format\amf\Value.hx" />
+      <file path="..\hxformat\format\amf\Writer.hx" />
+    </dir>
+    <dir path="flv">
+      <file path="..\hxformat\format\flv\Data.hx" />
+      <file path="..\hxformat\format\flv\Reader.hx" />
+      <file path="..\hxformat\format\flv\Tools.hx" />
+      <file path="..\hxformat\format\flv\Writer.hx" />
+    </dir>
+    <dir path="samples">
+      <file path="samples\Display.hx" />
+      <file path="samples\Main.hx" />
+      <file path="samples\VideoPlayer.hx" />
+      <file path="samples\Webcam.hx" />
+    </dir>
+    <file path="hxvid\Client.hx" />
+    <file path="hxvid\Commands.hx" />
+    <file path="hxvid\RealtimeServer.hx" />
+    <file path="hxvid\Rtmp.hx" />
+    <file path="hxvid\Server.hx" />
+    <file path="hxvid\SharedObject.hx" />
+  </files>
+</haxe>
